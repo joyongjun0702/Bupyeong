@@ -10,6 +10,8 @@ h2 {
   padding: 10px;
 }
 body {
-  background-image: url(bgbp.png);
+  background-image: url(bgbp.png); 
+  filter:brightness( 70%)
+  
   background-size: cover; width: 100%; height: 100%;
 }
