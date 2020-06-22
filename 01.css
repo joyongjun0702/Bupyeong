@@ -1,15 +1,43 @@
- section {
-  background-image: url(white.png);
+ body {
+  font-family: 'Do Hyeon', sans-serif;
+}
+
+section {
+
   color: gray;
   margin: 10px;
   text-align: center;
   border-style: solid;
+  border-color:  rgb(70, 200, 255);
   border-width: 2px 2px 2px 10px;
   padding: 10px;
 }
-body {
-  background-image: #58ACFA; 
-  filter:brightness( 70%)
-  
-  background-size: cover; width: 100%; height: 100%;
+
+a:link{
+  color: white;
+  text-decoration: none;
+
+
+}
+a:visited{
+  color: white;
+}
+a:hover{
+  background-color:  rgb(70, 200, 255);
+  color: white;
+
+}
+
+nav {
+  padding: 3px;
+  background-color: rgb(150, 222, 255);
+
+
+}
+header {
+  color: white;
+  padding: 10px;
+  background-color: rgb(70, 200, 255);
+
+
 }
